@@ -12,3 +12,9 @@ post '/new' do
 
     redirect '/'
 end
+
+get '/all-skills' do
+    @skills = Skill.all
+
+    erb :all_skills
+end
