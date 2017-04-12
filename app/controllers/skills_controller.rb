@@ -1,7 +1,5 @@
-get '/skills' do
-    @skills = Skill.all
-
-    erb :skills
+get '/new-skill' do
+    erb :new_skill
 end
 
 post '/new' do

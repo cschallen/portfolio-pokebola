@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Carlos Schallenberger</title>
+</head>
+<body>
+    <h1>Novo job</h1>
+
+    <form action="new" method="post" name="job">
+        <label>Nome da empresa: </label>
+        <input type="text" name="job[name]">
+
+        <label>Função: </label>
+        <input type="text" name="job[function]">
+
+        <label>Descrição: </label>
+        <input type="text" name="job[description]">
+
+        <label>Data de início: </label>
+        <input type="date" name="job[start_time]">
+
+        <label>Data de fim: </label>
+        <input type="date" name="job[end_time]">
+
+
+        <input type="submit" value="Salvar">
+    </form>
+
+    <a href="/">Voltar</a>
+</body>
+</html>
