@@ -1,0 +1,11 @@
+.Name {
+    color: #510563;
+    font-size: 8vh;
+}
+.Image {
+    background-image: url("/images/profile_image.jpg");
+    background-repeat: no-repeat;
+    border-radius: 42vh;
+    height: 83vh;
+    width: 84vh;
+}
