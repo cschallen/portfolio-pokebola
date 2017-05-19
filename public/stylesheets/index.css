@@ -1,11 +1,50 @@
 .Name {
-    color: #510563;
+    color: #dbdbea;
     font-size: 8vh;
 }
+
 .Image {
     background-image: url("/images/profile_image.jpg");
     background-repeat: no-repeat;
-    border-radius: 42vh;
-    height: 83vh;
-    width: 84vh;
+    border-radius: 10vh;
+    height: 19vh;
+    width: 19vh;
+    background-size: cover;
+    margin: auto;
+}
+
+.Border-image {
+    background-color: #1d1d1d;
+    height: 22vh;
+    width: 22vh;
+    border-radius: 11vh;
+    display: flex;
+    align-items: center;
+}
+
+.Pokeball-red {
+    background-color: #bb2727;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pokeball-center {
+    background-color: #1d1d1d;
+    height: 10vh;
+    border: 2px solid #5f5f5f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pokeball-white {
+    background-color: #dbdbea;
+    height: 50vh;
+}
+
+.Navbar-links {
+    margin: 10px;;
 }
