@@ -1,3 +1,36 @@
+.bg-red {
+    background-color: #bb2727;
+}
+
+.bg-white {
+    background-color: #dbdbea;
+}
+
+.Cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Card {
+    background-color: rgba(181, 169, 169, 0.42);
+    width: 75vw;
+    height: 30vh;
+    margin-top: 10%;
+    border-radius: 7px;
+}
+
+.Card-title {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.Card-text {
+
+}
+
 .Name {
     color: #dbdbea;
     font-size: 8vh;
@@ -23,7 +56,6 @@
 }
 
 .Pokeball-red {
-    background-color: #bb2727;
     height: 40vh;
     display: flex;
     align-items: center;
@@ -41,7 +73,6 @@
 }
 
 .Pokeball-white {
-    background-color: #dbdbea;
     height: 50vh;
 }
 
